@@ -1,0 +1,27 @@
+body {
+	background-image: url(fundo1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 500px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.check {
+	cursor: pointer;
+}
+
+.delete {
+	cursor: pointer;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+span {
+	max-width: 430px;
+}
